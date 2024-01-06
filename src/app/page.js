@@ -67,7 +67,7 @@ export default function Home() {
   return (
       <main>
           <div className="wrapper">
-            <h1>We're launching soon</h1> 
+            <h1>We&apos;re launching soon</h1> 
             <div className="timer">
               <div className="days">
                   <div className="card">
