@@ -31,10 +31,10 @@ export default function Home() {
   }
 
   const [time, setTime] = useState(777600);
-  const [days, setDay] = useState(0);
-  const [hours, setHour] = useState(0);
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(0);
+  const [days, setDay] = useState(computeDays(time));
+  const [hours, setHour] = useState(computeHours(time));
+  const [minutes, setMinutes] = useState(computeMinutes(time));
+  const [seconds, setSeconds] = useState(computeSeconds(time));
 
   const prevCountDay = useRef();
   const prevCountHour = useRef();
