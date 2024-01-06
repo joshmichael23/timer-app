@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Vercel Site] (https://timer-app-mauve.vercel.app)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/timer-app-using-nextjs-VcRxmh6sdZ)
+- Live Site URL: [Vercel Site](https://timer-app-mauve.vercel.app)
 
 
 ## Built with
@@ -45,8 +45,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@joshmichael23](https://www.frontendmentor.io/profile/joshmichael23)
+- Twitter - [@sadzxcqwerty](https://www.twitter.com/sadzxcqwerty)
 
 ## Acknowledgments
 
