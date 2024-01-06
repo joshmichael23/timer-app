@@ -231,22 +231,21 @@ footer{
   position: relative;
   z-index: 1;
   width:25px;
-  
+  filter:none;
+  transition: all .2s ease;
+  -webkit-transition: .2s -webkit-filter ease;
+  -moz-transition: .2s -moz-filter ease;
+  -moz-transition: .2s filter ease;
+  -ms-transition: .2s -ms-filter ease;
+  -o-transition: .2s -o-filter ease;
 }
 
-.social-media > a::after{
-  display: block;
-  content:'';
-  position: absolute;
-  height:25px;
-  width:25px;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  background: yellowgreen;
+.social-media > *:hover{
+  filter: invert(51%) sepia(45%) saturate(1037%) hue-rotate(302deg) brightness(99%) contrast(98%);
 }
 
 .social-media > .facebook{
+  
   content: url('/icon-facebook.svg');
 }
 
