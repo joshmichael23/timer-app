@@ -62,7 +62,7 @@ export default function Home() {
 
       return () => clearInterval(timer);
     }
-  }, [time])
+  }, [time, days, hours, minutes, seconds])
 
   return (
       <main>
