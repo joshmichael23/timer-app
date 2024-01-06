@@ -19,8 +19,10 @@ html,body{
 body{
   font-family: "Red Hat Text";
   background-color: hsl(234, 17%, 12%);
-  background: hsl(234, 17%, 12%)  url('/pattern-hills.svg') no-repeat center bottom;
-  background-size: contain;
+  background-repeat: no-repeat, no-repeat;
+  background-image: url('/pattern-hills.svg'), url('/bg-stars.svg');
+  background-position: center bottom, center center;
+  background-size: contain, cover;
   display: grid;
   place-items: center;
   grid-template-rows: auto;
